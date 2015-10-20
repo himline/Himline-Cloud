@@ -14,6 +14,11 @@ import org.springframework.data.annotation.Id;
 @Table(name = "config_property")
 public class ConfigurationProperty implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4202418584007813473L;
+
 	@Id
 	@Column(name = "pname")
 	String name;

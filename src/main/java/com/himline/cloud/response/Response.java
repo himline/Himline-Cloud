@@ -8,7 +8,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Response {
 	private boolean error;
-	private List messages = new ArrayList();
+	private List <String> messages = new ArrayList <String> ();
 	private Object result;
 
 	public boolean isError() {
@@ -19,11 +19,11 @@ public class Response {
 		this.error = error;
 	}
 
-	public List getMessages() {
+	public List <String> getMessages() {
 		return messages;
 	}
 
-	public void setMessages(List messages) {
+	public void setMessages(List <String> messages) {
 		this.messages = messages;
 	}
 
