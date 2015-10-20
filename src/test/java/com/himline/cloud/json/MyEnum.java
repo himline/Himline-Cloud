@@ -1,0 +1,10 @@
+package com.himline.cloud.json;
+
+/**
+ * An enum with no methods or data
+ */
+public enum MyEnum {
+    VAL1,
+    VAL2,
+    VAL3;
+}
